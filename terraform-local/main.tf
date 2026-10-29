@@ -33,6 +33,11 @@ resource "docker_container" "web" {
     internal = 80
     external = var.external_port
   }
+
+  upload {
+    file    = "/usr/share/nginx/html/index.html"
+    content = "<h1>Provisioned with Terraform - Kenisha Koul</h1>"
+  }
 }
 
 output "website_url" {
