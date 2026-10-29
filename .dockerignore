@@ -1,0 +1,13 @@
+__pycache__
+*.pyc
+.git
+venv
+.venv
+.env
+tests
+terraform
+terraform-local
+jenkins
+screenshots
+Jenkinsfile
+README.md

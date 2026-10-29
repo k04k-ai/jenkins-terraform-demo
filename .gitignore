@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+test-results.xml
+.env
+
+# Terraform - never commit state or credentials
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
